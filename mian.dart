@@ -25,4 +25,6 @@ void main() {
   triplePrint("wenn man sie kapiert.");
 
   reversInitials("Kai", "Hannelore");
+  reversInitials("Manfred", "Otto");
+  reversInitials("Lola", "Günther");
 }
