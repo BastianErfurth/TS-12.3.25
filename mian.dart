@@ -11,6 +11,10 @@ void triplePrint(String text) {
   print(text);
 }
 
+void reversInitials(Vorname, Nachname) {
+  print("${Vorname[Vorname.length - 1]}. ${Nachname[Nachname.length - 1]}.");
+}
+
 void main() {
   printNumber(4);
   printNumber(9);
@@ -19,4 +23,6 @@ void main() {
   triplePrint("Hallo Leute:");
   triplePrint("Funktionen sind ne coole Sache,");
   triplePrint("wenn man sie kapiert.");
+
+  reversInitials("Kai", "Hannelore");
 }
