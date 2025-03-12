@@ -11,6 +11,8 @@ void triplePrint(String text) {
   print(text);
 }
 
+// Aufgabe 3
+
 void reversInitials(Vorname, Nachname) {
   print("${Vorname[Vorname.length - 1]}. ${Nachname[Nachname.length - 1]}.");
 }
