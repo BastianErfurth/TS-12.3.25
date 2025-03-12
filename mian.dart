@@ -13,8 +13,9 @@ void triplePrint(String text) {
 
 // Aufgabe 3
 
-void reversInitials(Vorname, Nachname) {
-  print("${Vorname[Vorname.length - 1]}. ${Nachname[Nachname.length - 1]}.");
+void reversInitials(String Vorname, String Nachname) {
+  print(
+      "${Vorname[Vorname.length - 1].toUpperCase()}. ${Nachname[Nachname.length - 1].toUpperCase()}.");
 }
 
 void main() {
