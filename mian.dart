@@ -16,5 +16,7 @@ void main() {
   printNumber(9);
   printNumber(45);
 
-  triplePrint("Funktionen sind ne coole Sache!");
+  triplePrint("Hallo Leute:");
+  triplePrint("Funktionen sind ne coole Sache,");
+  triplePrint("wenn man sie kapiert.");
 }
